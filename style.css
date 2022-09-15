@@ -54,6 +54,14 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: rgb(180, 163, 255);
+}
+
+a:hover {
+    color: rgb(180, 163, 255)
+}
+
 .intro-info {
     display:flex;
     flex-direction: column;
@@ -69,7 +77,7 @@ a {
     color: white;
     font-size: 38px;
     font-weight: 700;
-    color: rgb(174, 155, 255)
+    color: rgb(174, 155, 255);
 }
 
 .intro-text {
@@ -89,7 +97,12 @@ a {
 /* color: rgb(193, 179, 254); */
 
 li img {
-    max-width:250px;
+    width:250px;
+}
+
+.examples li {
+    width:250px;
+    height:250px;
     border-style: solid;
     border-color:rgb(193, 179, 254);
     border-width: 15px;
@@ -169,4 +182,11 @@ li img {
     font-size: 28px;
     color: white;
     padding: 20px;
+}
+
+.examples-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(137, 112, 245);
 }
